@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +7,9 @@
   <title>Library</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/119e7d00ec.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script src="books.js"></script>
 </head>
+
 <body id="books__body">
   <section id="landing">
     <nav>
@@ -41,36 +41,31 @@
         </div>
       </div>
     </nav>
-    </header>
   </section>
+
   <main id="books__main">
-    <section>
+    <section id="books__section">
         <div class="container">
             <div class="row">
+                <div class="books__header">
             <h2 class="section__title books__header--title">
                 All <span class="purple">Books</span>
             </h2>
-            <div class="book">
-                <figure class="book__img--wrapper">
-                    <img class="book__img" src="atomic habits.jpg" alt="">
-                </figure>
-                <div class="book__title">
-                    Atomic Habits
-                </div>
-                <div class="book__ratings">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half"></i>
-              </div>
-              <div class="book__price">
-                <span class="book__price--normal">$59.95</span> $14.95
+            <select id="filter">
+                <option value="" disabled selected>Sort</option>
+                <option value="LOW_TO_HIGH">Price: Low to High</option>
+                <option value="HIGH_TO_LOW">Price: High to Low</option>
+                <option value="RATING">Rating</option>
+            </select>
             </div>
-                </div>
+            </div>
+            <div class="books">
+
             </div>
         </div>
-    </section>
+    </div>
+</div>
+</section>
   </main>
   <footer>
     <div class="container">

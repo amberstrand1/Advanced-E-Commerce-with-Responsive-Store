@@ -23,8 +23,20 @@ body {
 
 #books__main{
   max-width: 100vw;
+  max-height: 100vh;
   overflow-x: hidden;
   background-color:rgba(115, 66, 214, 0.1);
+}
+
+.books__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+#books__section {
+    padding: 56px 0;
 }
 
 nav {
