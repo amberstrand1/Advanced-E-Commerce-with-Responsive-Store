@@ -63,7 +63,7 @@ function getBooks() {
     {
         id: 1,
         title: "Cracking the Coding Interview",
-        url: "crack-the-coding-interview.png",
+        url: "crack the coding interview.png",
         originalPrice: 59.95,
         salePrice: 14.95,
         rating: 4.5,
@@ -71,7 +71,7 @@ function getBooks() {
     {
         id: 2,
         title: "Atomic Habits",
-        url: "atomic-habits.jpg",
+        url: "atomic habits.jpg",
         originalPrice: 59.95,
         salePrice: 13.95,
         rating: 4.5,
@@ -79,7 +79,7 @@ function getBooks() {
     {
         id: 3,
         title: "Can't Hurt Me",
-        url: "david-goggins.jpeg",
+        url: "david goggins.jpeg",
         originalPrice: 59.95,
         salePrice: 15.00,
         rating: 4.5,
@@ -87,7 +87,7 @@ function getBooks() {
     {
         id: 4,
         title: "Deep Work",
-        url: "deep-work.jpeg",
+        url: "deep work.jpeg",
         originalPrice: 59.95,
         salePrice: 12.00,
         rating: 4.5,
@@ -127,7 +127,7 @@ function getBooks() {
     {
         id: 9,
         title: "Psychology of Money",
-        url: '"book-5.jpeg',
+        url: "book-5.jpeg",
         originalPrice: 59.95,
         salePrice: 16.95,
         rating: 4.5,
