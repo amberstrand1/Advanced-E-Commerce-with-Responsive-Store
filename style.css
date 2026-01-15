@@ -340,8 +340,17 @@ FEATURES
 }
 
 .books {
+  height: auto;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+
+.books__page {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
